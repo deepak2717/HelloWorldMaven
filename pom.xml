@@ -13,6 +13,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/ubuntu/JenkinRelease/</url>
+       </repository>
+   </distributionManagement>
 
   <dependencies>
     <dependency>
