@@ -18,7 +18,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/ubuntu/JenkinRelease/</url>
+         <url>F:\ReleaseArtifacts\</url>
        </repository>
    </distributionManagement>
 
