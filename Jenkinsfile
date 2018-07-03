@@ -3,18 +3,24 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn clean compile'
+                maven(maven : 'Maven_3.5.2'){
+                        bat "mvn clean compile"
+                }
             }
         }
         stage('Test'){
             steps {
-                sh 'mvn test'
+                maven(maven : 'Maven_3.5.2'){
+                        bat "mvn test"
+                }
 
             }
         }
         stage('Deploy') {
             steps {
-                sh 'mvn deploy'
+               maven(maven : 'Maven_3.5.2'){
+                        bat "mvn deploy"
+                }
 
             }
         }
