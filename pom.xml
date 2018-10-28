@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>0.0.6-SNAPSHOT</version>
+  <version>0.0.9-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -18,23 +18,9 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///var/lib/jenkins/Releases/</url>
+         <url>file:///G:/TEST/</url>
        </repository>
    </distributionManagement>
-<!--distributionManagement>
-  <repository>
-    <id>nexus-releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <!--url>http://18.222.207.32:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>nexus-snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <!--url>http://18.222.207.32:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
-</distributionManagement-->
-
-
 
   <dependencies>
     <dependency>
