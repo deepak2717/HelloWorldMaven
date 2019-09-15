@@ -18,7 +18,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///usr/local/svn-builds/myartifacts/</url>
+         <url>file:///var/lib/jenkins/myartifacts/</url>
        </repository>
    </distributionManagement>
 
