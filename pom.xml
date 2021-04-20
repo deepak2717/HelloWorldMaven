@@ -4,8 +4,9 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>1.0.3-RELEASE</version>
-  <packaging>jar</packaging>
+
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>war</packaging>
 
   <name>HelloWorldMaven</name>
   <url>http://maven.apache.org</url>
