@@ -2,9 +2,9 @@
 <projectDescription>
 	<name>HelloWorldMaven</name>
 	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
+	//<projects>
+	//</projects>
+	//<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 			<arguments>
